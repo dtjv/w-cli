@@ -1,0 +1,13 @@
+{
+  "name": "app-name",
+  "version": "0.0.1",
+  "wod": {
+    "src": {
+      "dir": "/path/to/folders"
+    },
+    "out": {
+      "dir": "./path/to/results",
+      "file": "out.html"
+    }
+  }
+}

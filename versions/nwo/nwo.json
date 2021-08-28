@@ -1,0 +1,64 @@
+{
+  // --------------------------------------------------------------------------
+  // REQUIRED - application settings
+  // --------------------------------------------------------------------------
+
+  // Full path to template files
+  "templates_folder": "/Users/davidvalles/code/js/basics/nwo/templates",
+
+  // List of template files
+  "templates": {
+    "head": "head.html",
+    "body": "body.html",
+    "tail": "tail.html"
+  },
+
+  // Full path to directory of client folders
+  "clients_folder": "/Users/davidvalles/Dropbox/work/clients",
+
+  // Path to output file. (CLI: `-o FILE`)
+  "output_path": "/Users/davidvalles/Dropbox/work/clients/workouts",
+
+  // Write output to this file. (CLI: `-o FILE`).
+  // Interpolated values:
+  //   {{day}}    - uses filename in `input_file` or `-i FILE`.
+  //   {{client}} - uses filename in `client_directory` or `-d DIR`.
+  //
+  // `.html` is append to both interpolated values.
+  "output_file": "{{day}}",
+
+  // Build type:
+  //   day     - build workouts for a specific day.
+  //   client  - build workouts for a specific client.
+  //
+  // CLI: `--t=[day|client]`
+  "build_type": "day",
+
+
+  // --------------------------------------------------------------------------
+  // REQUIRED for `build_type=day | --t=day`
+  // --------------------------------------------------------------------------
+
+  // File to process. Relative to `client_folder`.
+  // CLI: `-i FILE`
+  "input_file": "",
+
+
+  // --------------------------------------------------------------------------
+  // REQUIRED for `build_type=client | --t=client`
+  // --------------------------------------------------------------------------
+
+  // Specific client folder. (CLI: `-d DIR`)
+  "client_directory": "",
+
+  // Boolean:
+  //   true   - all files in `client_directory` are included in build.
+  //   false  - defer to `client_files` setting.
+  //
+  // CLI: `-a`
+  "process_all_files": false,
+
+  // List of files to include in build. (CLI: FILE [FILE...])
+  "client_files": [
+  ]
+}

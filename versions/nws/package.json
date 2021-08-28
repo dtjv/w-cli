@@ -1,0 +1,27 @@
+{
+  "name": "nws",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "nws": "./dist/bin/cli.js"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1"
+  },
+  "dependencies": {
+    "pdc": "^0.2.2",
+    "through2": "^2.0.0",
+    "vinyl-fs": "git+https://github.com/gulpjs/vinyl-fs.git",
+    "vinyl-source-stream": "^1.1.0",
+    "meow": "^3.3.0",
+    "chalk": "^1.1.1",
+    "babel": "^5.8.23",
+    "arrify": "^1.0.0",
+    "find-up": "^1.0.0",
+    "read-pkg": "^1.1.0",
+    "write-json-file": "^1.1.1"
+  }
+}

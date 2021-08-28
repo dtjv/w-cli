@@ -1,0 +1,15 @@
+{
+  "name": "nwo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "nwo": "nwo.js"
+  },
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "jsonminify": "^0.2.3",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0"
+  }
+}
