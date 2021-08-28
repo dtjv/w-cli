@@ -1,0 +1,24 @@
+{
+  "name": "@dtjv/wod-cli",
+  "version": "0.1.0",
+  "description": "A Node CLI to aggregate Markdown files into one HTML file.",
+  "author": "David J. Valles <davidtjvalles@gmail.com>",
+  "type": "module",
+  "bin": {
+    "wod": "./src/bin/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
