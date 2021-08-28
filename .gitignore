@@ -8,6 +8,10 @@ coverage
 # env files
 .env
 
+# lock files
+yarn.lock
+package-lock.json
+
 # misc
 *.pem
 .DS_Store
