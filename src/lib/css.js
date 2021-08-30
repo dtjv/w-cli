@@ -1,6 +1,7 @@
 export const css = `
 html,
 body,
+p,
 h1,
 h2,
 h3,
@@ -53,6 +54,9 @@ ul {
 }
 .workout h3,
 .workout h2:first-child {
+  margin-top: 0.5rem;
+}
+.workout p {
   margin-top: 0.5rem;
 }
 `.replaceAll(/[\n]/g, '')
