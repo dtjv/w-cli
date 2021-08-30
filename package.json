@@ -15,7 +15,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "example": "./src/bin/cli.js -d fixtures"
   },
   "devDependencies": {
     "prettier": "2.3.2"
