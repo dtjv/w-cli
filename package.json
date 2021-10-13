@@ -1,37 +1,35 @@
 {
   "name": "@dtjv/wod-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node CLI to aggregate Markdown files into one HTML file.",
   "author": "David J. Valles <davidtjvalles@gmail.com>",
   "type": "module",
   "bin": {
     "wod": "./src/bin/cli.js"
   },
-  "files": [
-    "src"
-  ],
+  "files": ["src"],
   "engines": {
     "node": ">=16.0.0"
   },
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",
-    "example": "./src/bin/cli.js -d fixtures"
+    "example": "./src/bin/cli.js -d fixtures -o example.html"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "prettier": "2.4.1"
   },
   "dependencies": {
-    "commander": "8.1.0",
+    "commander": "8.2.0",
     "globby": "12.0.2",
     "rehype-add-classes": "1.0.0",
     "rehype-document": "6.0.0",
     "rehype-format": "4.0.0",
-    "rehype-parse": "8.0.2",
-    "rehype-stringify": "9.0.1",
+    "rehype-parse": "8.0.3",
+    "rehype-stringify": "9.0.2",
     "rehype-wrap": "1.0.10",
     "remark-parse": "10.0.0",
-    "remark-rehype": "9.0.0",
+    "remark-rehype": "10.0.0",
     "to-vfile": "7.2.2",
     "unified": "10.1.0"
   }
