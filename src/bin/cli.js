@@ -37,16 +37,15 @@ program.addHelpText(
 Notes:
   1. '--dir <path>' is relative to current working directory
   2. '--client <folder>' is relative to '--dir'
-  3. '--out <file>' is relative to current working directory
 
 Examples:
-  # Process all files in
+  # Process all folders in 'clients' folder.
   $ wod -d clients
 
-  # Process all files in a client folder
-  $ wod -c jon-doe -o < jon.html
+  # Process all files a client folder. Redirect output to a file.
+  $ wod -c jon-doe > jon.html
 
-  # Process a file for a client
+  # Process a file for a client.
   $ wod -c jon-doe -f 2021.01.01.md -o jon.html
 
   # Process specific files for all clients
